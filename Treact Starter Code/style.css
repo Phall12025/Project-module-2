@@ -40,14 +40,16 @@ section {
 main {
   margin-bottom: 96px;
 }
-
+span {
+  color: #6415ff;
+}
 /* 
 
 NAVBAR ↓
 
 */
 .navbar {
-  display: flex;
+  display: center;
   justify-content: space-between;
   align-items: center;
 }
@@ -183,7 +185,8 @@ QUALITY WORK ↓
 
 #quality .row {
   display: flex;
-  justify-content: space-between;
+  justify-content: ;
+  
   align-items: center;
 }
 
