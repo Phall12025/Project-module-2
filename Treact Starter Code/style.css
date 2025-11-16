@@ -46,14 +46,15 @@ main {
 
 NAVBAR ↓
 
-*/
+*/  
 .navbar {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  padding: 16px 24px;
 }
 
 .nav__links {
+
   margin-left: auto; /* pushes links to the right */
   display: flex;
   gap: 20px;
@@ -64,18 +65,19 @@ NAVBAR ↓
 
 
 nav {
-    display: flex
+    display: flex;
     padding-top: 32px;
 }
 
 .nav__row {
     display: flex;
-    justify-content: ;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav__logo {
     display: flex;
-    align-items:center;
+    align-items right;
     margin: 8px 0;
     padding-bottom: 4px;
 }
@@ -330,7 +332,6 @@ MOBILE RESPONSIVENESS ↓
     }
     main {
         margin-bottom: 80px;
-    }
+    } 
 }
-. 
-}
+
