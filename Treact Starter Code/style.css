@@ -7,6 +7,23 @@
   font-family: "Inter", system-ui;
   color: #243e63;
 }
+.item {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+
+
+  .container {
+    display: flex;
+    justify-content: wrap;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+    text-align:center; 
+  }   
+  
+
+} 
 
 .card1 {
   background-color:none;
@@ -124,6 +141,9 @@ NAVBAR ↓
   display: center;
   justify-content: space-between;
   align-items: center;
+  border: 50px blue;
+  padding-bottom: 16px;
+  
 }
 
 .nav__links {
@@ -131,8 +151,9 @@ NAVBAR ↓
   display: flex;
   gap: 20px;
   list-style: none;
-  padding: 0;
+  padding: px ;
   margin: 0;
+
 }
 
 nav {
