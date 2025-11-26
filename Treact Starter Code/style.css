@@ -45,7 +45,7 @@
   display: display-inside;
   justify-content: center;
   align-items: center;
-  font-weight: normal ;
+  font-weight: normal;
   word-wrap: break-wrap;
   flex-wrap: wrap;
   border-radius: 12px;
@@ -54,7 +54,7 @@
 .row2 {
   font-size: 24px;
   margin-bottom: 10px;
-  font-weight:normal;
+  font-weight: normal;
   text-align: center;
   color: #333;
   padding: 10px;
@@ -179,7 +179,9 @@
 .row__narrow {
   width: 100%;
   max-width: 1024px;
-  margin: 0 auto;
+  margin: 0 left;
+  text-align: left;
+  padding: 50px 0;
 }
 
 .container {
@@ -231,6 +233,10 @@ nav {
   padding-top: 32px;
   align-items: center;
 }
+.nav__logo img {
+  width: 40px;
+  height: 40px;
+}
 
 .nav__row {
   display: flex;
@@ -243,6 +249,8 @@ nav {
   align-items: left;
   margin: 8px 0;
   padding-bottom: 4px;
+  align-items: center;
+  gap: 8px; /* optional spacing */
 }
 
 .btn__menu {
